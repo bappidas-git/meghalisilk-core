@@ -1,61 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Meghali's Silk — Core API
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Laravel 12 backend for the Meghali's Silk React storefront and admin console, served under
+`https://core.meghalisilk.in/api/v1`. The contract (routes, payloads, response shapes, business
+cascades) is defined by [`api-creation-guide.md`](api-creation-guide.md); the companion Postman
+collection is [`postman-api-collection.json`](postman-api-collection.json).
 
-## About Laravel
+## Stack
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+* PHP 8.2+, Laravel 12, MySQL 8 (SQLite in-memory for the test suite)
+* Laravel Sanctum personal access tokens — two independent sessions:
+  customer tokens carry the `customer` ability, admin tokens the `admin` ability (every `/admin/*` route).
+* Every success response is `{ "success": true, "data": … }`; every error is `{ "message": "…", "errors"?: {…} }`.
+* camelCase JSON keys, ISO-8601 UTC dates with milliseconds (`2026-01-15T10:30:00.000Z`), integer INR amounts.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Getting started
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+```bash
+composer install
+cp .env.example .env            # set DB_*, CORS_ALLOWED_ORIGINS, ADMIN_EMAIL / ADMIN_PASSWORD
+php artisan key:generate
+php artisan migrate
+php artisan db:seed             # imports db.json with the original ids + guarantees an admin account
+php artisan serve               # http://localhost:8000/api/v1
+```
 
-## Learning Laravel
+Point the storefront at it with `REACT_APP_API_URL=http://localhost:8000/api/v1` and
+`REACT_APP_USE_MOCK_API=false`. The seeded admin is `admin@store.com` / `admin123` — change it before go-live.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Run the tests and the code style check:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```bash
+php artisan test
+vendor/bin/pint
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Layout
 
-## Laravel Sponsors
+| Path | Purpose |
+| --- | --- |
+| `routes/api.php` | All 110 endpoints under `/api/v1` (public, customer, admin groups) |
+| `app/Http/Controllers/Api/V1/{Auth,Storefront,Admin}` | Thin controllers; every write goes through a Form Request |
+| `app/Http/Requests` | Validation rules (guide §16) |
+| `app/Http/Resources` | camelCase response shapes (guide §15) |
+| `app/Services` | Business cascades: order pricing/placement, cancellation, refunds, returns, wallet ledger, coupons, inventory, settings |
+| `app/Http/Middleware` | `EnsureTokenAbility` (401 on wrong scope), `EnsureAccountActive`, `ForceJsonResponse` |
+| `database/migrations` | 28 tables in FK order (guide §11 / §36) |
+| `database/seeders/DbJsonImportSeeder.php` | One-off `db.json` import with the clean-ups from guide §37 |
+| `tests/Feature/Api` | Feature tests covering auth, catalogue, cart/wishlist, the order/refund/return cascades and every admin module |
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Decisions taken for the "BACKEND DECISION REQUIRED" items
 
-### Premium Partners
+| Topic | Decision |
+| --- | --- |
+| Online orders without a gateway (§22.3) | Option A: created as `paymentStatus: "pending"`; the admin's "Mark as Paid" captures the payment. `STORE_TRUST_CLIENT_PAYMENT_STATUS=true` switches to mock parity. |
+| Shipping method not sent by checkout (§42.2) | The client's `shippingAmount` is accepted only when it equals the cost of an active method for the subtotal, otherwise 422. |
+| Order / return / refund numbers | Server generated: `ORD-YYYYMMDD-NNNN`, `RET-YYYYMMDD-NNNN`, `REF-YYYYMMDD-XXXX`. |
+| Price drift between cart and checkout | 422 `Prices have changed, please review your cart.` |
+| Password minimum | 8 characters for registration and password change. |
+| Wrong-scope / revoked / expired token | 401 so the frontend drops the stale session. |
+| Token lifetime | 30 days, 90 with "Remember me" (`STORE_TOKEN_TTL_*`). |
+| Dashboard `totalRevenue` | Mock parity (all orders); `STORE_REVENUE_EXCLUDES_CANCELLED=true` excludes cancelled/refunded. |
+| Shiprocket proxy endpoints | `501 Shiprocket integration is not enabled.` |
+| Product rating | Recomputed from approved reviews on every review event; seed values kept until then. |
+| Seed data quality (§42.10) | Product 1's corrupted prices restored from its wishlist snapshot, dangling product ids dropped, FAQ test text stripped, wallet balance recomputed from the ledger. |
+| Deletes of absent cart/wishlist rows | 404 (as the endpoint spec states). |
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Environment
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+See `.env.example`. Beyond the standard Laravel keys: `CORS_ALLOWED_ORIGINS` (exact storefront origins),
+`STORE_TOKEN_TTL_DAYS`, `STORE_TOKEN_TTL_REMEMBER_DAYS`, `STORE_TRUST_CLIENT_PAYMENT_STATUS`,
+`STORE_REVENUE_EXCLUDES_CANCELLED`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, and the server-side-only gateway keys.

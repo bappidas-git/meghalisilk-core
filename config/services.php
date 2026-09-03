@@ -38,8 +38,9 @@ return [
         'key_id' => env('RAZORPAY_KEY_ID'),
         'key_secret' => env('RAZORPAY_KEY_SECRET'),
     ],
-    'mailchimp' => [
-    'transactional_key' => env('MAILCHIMP_TRANSACTIONAL_KEY'),
+    'shiprocket' => [
+        'email' => env('SHIPROCKET_EMAIL'),
+        'password' => env('SHIPROCKET_PASSWORD'),
     ],
 
 ];
