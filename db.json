@@ -1,0 +1,3096 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "The Bridal Muga Edit",
+      "subtitle": "Heirloom Mekhela Chador woven to order in undyed Sualkuchi Muga",
+      "cta": "Shop Bridal",
+      "link": "/products?category=muga-silk",
+      "gradient": "linear-gradient(135deg,#1D1A16 0%,#3A2E1B 60%,#8A6118 100%)",
+      "eyebrow": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "gradient",
+      "image": "",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": true,
+      "sortOrder": 0,
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Mekhela Chador from Sualkuchi",
+      "subtitle": "Muga, Pat, Eri and Nuni — the Assamese drape, woven on village looms",
+      "cta": "Explore Mekhela Chador",
+      "link": "/products",
+      "gradient": "linear-gradient(135deg,#322C25 0%,#6B5030 55%,#C8912A 100%)",
+      "eyebrow": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "gradient",
+      "image": "",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": true,
+      "sortOrder": 1,
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Bihu Offers",
+      "subtitle": "A short list of genuinely reduced weaves — everything else stays at its honest price",
+      "cta": "View Offers",
+      "link": "/special-offers",
+      "gradient": "linear-gradient(135deg,#0F0D0A 0%,#5C554A 50%,#8A6118 100%)",
+      "eyebrow": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "gradient",
+      "image": "",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": 4,
+      "title": "New In: Eri Shawls & Stoles",
+      "subtitle": "Handspun Eri — matte, warm and softer with every wash",
+      "cta": "Shop Stoles",
+      "link": "/products?category=eri-silk",
+      "gradient": "linear-gradient(135deg,#1D1A16 0%,#4A3F31 55%,#AF7E26 100%)",
+      "eyebrow": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "gradient",
+      "image": "",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": true,
+      "sortOrder": 3,
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "title": "none",
+      "subtitle": "none###",
+      "eyebrow": "",
+      "cta": "Shop the Collection",
+      "link": "/products",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "image",
+      "gradient": "linear-gradient(135deg,#1D1A16 0%,#3A2E1B 60%,#8A6118 100%)",
+      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/dark-portrait-of-woman-with-hair-over-her-face-free-image.jpeg?h=800&quality=80",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": false,
+      "sortOrder": 4,
+      "updatedAt": "2026-09-01T12:38:36.399Z",
+      "id": 5
+    },
+    {
+      "title": "none (copy)",
+      "subtitle": "none###",
+      "eyebrow": "",
+      "cta": "Shop the Collection",
+      "link": "/products",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundType": "image",
+      "gradient": "linear-gradient(135deg,#1D1A16 0%,#3A2E1B 60%,#8A6118 100%)",
+      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/dark-portrait-of-woman-with-hair-over-her-face-free-image.jpeg?h=800&quality=80",
+      "imagePosition": "right center",
+      "videoUrl": "",
+      "videoPoster": "",
+      "overlayOpacity": null,
+      "textAlign": "left",
+      "durationMs": 0,
+      "isActive": false,
+      "sortOrder": 5,
+      "createdAt": "2026-09-01T12:38:38.851Z",
+      "updatedAt": "2026-09-01T12:38:38.851Z",
+      "id": 6
+    }
+  ],
+  "heroConfig": {
+    "enabled": true,
+    "autoplay": true,
+    "intervalMs": 1500,
+    "transition": "fade",
+    "pauseOnHover": true,
+    "showControls": true,
+    "showCounter": false,
+    "showProgress": true,
+    "showArrows": true,
+    "overlayOpacity": 100,
+    "heights": {
+      "desktop": {
+        "min": 520,
+        "vh": 78,
+        "max": 780
+      },
+      "tablet": {
+        "min": 480,
+        "vh": 70,
+        "max": 640
+      },
+      "mobile": {
+        "min": 460,
+        "vh": 66,
+        "max": 600
+      }
+    },
+    "secondaryCta": {
+      "enabled": true,
+      "label": "Our Story",
+      "link": "/about"
+    },
+    "openers": {
+      "enabled": true,
+      "label": "Collections",
+      "limit": 8
+    },
+    "updatedAt": "2026-09-01T12:31:51.228Z"
+  },
+  "faqs": [
+    {
+      "question": "How should I care for Muga, Pat and Eri silk?###",
+      "answer": "Dry-clean for the first couple of years, then a gentle cold hand wash with a mild detergent — Muga in particular grows softer and deepens in lustre each time it is washed. Dry in the shade, never in direct sun, and press on the reverse with a warm iron. Store the piece folded in unbleached muslin rather than plastic, refold it along a different line every few months so no crease ever sets, and keep perfume and deodorant off the fabric.####bhbhhjh",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T18:24:18.228Z",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "question": "Is the silk really handwoven in Assam?",
+      "answer": "Yes. Every piece is woven on a handloom and bought directly from weaving families in and around Sualkuchi, the weaving village on the north bank of the Brahmaputra. Undyed Muga is sold undyed — the deep honey gold is the fibre's own colour and not a dye — and Eri is handspun before it is woven. Each product page carries the details the weaver gave us for that particular piece.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 1,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "question": "What is the difference between Muga, Pat, Eri and Nuni silk?",
+      "answer": "Muga is the golden silk unique to Assam — undyed, unusually strong, and it only improves with age. Pat is the bright ivory-to-white mulberry silk, the one most often woven with zari for weddings and festivals. Eri is soft, matte and handspun; it behaves more like a fine wool and is warm to wear, which is why it is used for shawls and stoles. Nuni is a mulberry silk with a quieter, everyday finish. Every listing states which of them the piece is woven in.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 2,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T18:24:16.974Z",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "question": "What comes in a Mekhela Chador set, and does it arrive stitched?",
+      "answer": "A set is the two-piece drape: the mekhela, worn as the lower wrap, and the chador that goes over it. Both arrive unstitched and unpleated so your tailor can pleat, hem and finish them to your own measurements. A matching blouse piece is listed separately where one has been woven for the set. Lengths and widths appear on the product page wherever the weaver has supplied them — if a measurement you need is not listed, write to us before you order.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 3,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "question": "How long does delivery take, and is shipping free?",
+      "answer": "Standard delivery reaches most of India in 5-7 business days and is free on orders above {freeShipping}. Express delivery arrives in 2-3 business days, and same-day delivery is available within select Kolkata pin codes. Every order is packed in insured silk packaging, and the exact delivery charge for your address is shown at checkout before you pay.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 4,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "question": "What is your return policy?",
+      "answer": "We offer a 7-day return. Request one from My Orders within 7 days of delivery and send the piece back unworn, unwashed and with its original tags and packaging intact. Once it reaches us and passes inspection, the refund is processed to your original payment method within 5-7 business days. Blouses stitched to measure and made-to-order pieces cannot be returned, since they were finished to your own measurements.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 5,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "question": "Which payments do you accept, and is Cash on Delivery available?",
+      "answer": "UPI, credit and debit cards, net banking and wallets are all accepted, and every payment is handled over an encrypted connection by the payment gateway. {codSentence} Prices are shown {taxNote}.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 6,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "question": "How do I track my order?",
+      "answer": "You will receive an email with a tracking number as soon as your order is dispatched. You can also follow it at any time from the My Orders section of your account, where the current stage of every order is shown.",
+      "placements": [
+        "product",
+        "help",
+        "home"
+      ],
+      "productIds": [],
+      "isActive": true,
+      "sortOrder": 7,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "user@example.com",
+      "password": "password123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "+91 9876543210",
+      "avatar": null,
+      "addresses": [
+        {
+          "id": 1,
+          "label": "Home",
+          "firstName": "John",
+          "lastName": "Doe",
+          "phone": "+91 9876543210",
+          "addressLine1": "123 Main Street",
+          "addressLine2": "Apt 4B",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "postalCode": "400001",
+          "country": "India",
+          "isDefault": true
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2025-01-15T10:00:00.000Z",
+      "updatedAt": "2025-01-15T10:00:00.000Z",
+      "storeCredit": 0
+    },
+    {
+      "id": 2,
+      "email": "jane@example.com",
+      "password": "password123",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "phone": "+91 9123456789",
+      "avatar": null,
+      "addresses": [],
+      "isActive": true,
+      "createdAt": "2025-02-01T09:00:00.000Z",
+      "updatedAt": "2025-02-01T09:00:00.000Z",
+      "storeCredit": 0
+    },
+    {
+      "id": 3,
+      "email": "mail4bappidas@gmail.com",
+      "password": "Bappi@12345",
+      "firstName": "Bappi",
+      "lastName": "Das",
+      "phone": "",
+      "avatar": null,
+      "addresses": [
+        {
+          "id": 1,
+          "label": "Home",
+          "firstName": "Bappi",
+          "lastName": "Das",
+          "phone": "+919707112233",
+          "addressLine1": "Moutupuri, Barpeta",
+          "addressLine2": "Near BH College",
+          "city": "Howly",
+          "state": "Assam",
+          "postalCode": "781316",
+          "country": "India",
+          "isDefault": true
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2025-06-01T10:00:00.000Z",
+      "updatedAt": "2026-09-01T14:02:12.081Z",
+      "storeCredit": 3918
+    },
+    {
+      "firstName": "Shubendu",
+      "lastName": "Das",
+      "email": "shubendu@assamdigitaxcvbbl.com",
+      "phone": "+916901608721",
+      "password": "Zxcvbnm",
+      "avatar": null,
+      "addresses": [],
+      "isActive": true,
+      "createdAt": "2026-09-01T10:29:45.022Z",
+      "updatedAt": "2026-09-01T10:29:45.022Z",
+      "id": 4
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "email": "admin@store.com",
+      "password": "admin123",
+      "firstName": "Admin",
+      "lastName": "User",
+      "role": "super_admin",
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Muga Silk",
+      "slug": "muga-silk",
+      "description": "Assam's own golden silk, undyed — the honey colour is the fibre's, not a dye. Strong, lustrous, and it deepens with every wash.",
+      "image": "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289312/muga_2_V1.png",
+      "parentId": null,
+      "isActive": true,
+      "sortOrder": 1,
+      "showInMainMenu": true,
+      "menuOrder": 1,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:12:50.877Z"
+    },
+    {
+      "id": 2,
+      "name": "Pat Silk",
+      "slug": "pat-silk",
+      "description": "Bright ivory-to-white mulberry silk, the weave most often carried with zari for weddings and Bihu.",
+      "image": "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289300/pat_2_v1.png",
+      "parentId": null,
+      "isActive": true,
+      "sortOrder": 2,
+      "showInMainMenu": true,
+      "menuOrder": 2,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:13:18.790Z"
+    },
+    {
+      "id": 3,
+      "name": "Eri Silk",
+      "slug": "eri-silk",
+      "description": "Handspun, matte and warm — Eri behaves more like a fine wool than a silk, which is why it makes the shawls.",
+      "image": "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289291/Eri_1-V3.png",
+      "parentId": null,
+      "isActive": true,
+      "sortOrder": 3,
+      "showInMainMenu": true,
+      "menuOrder": 3,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:13:43.681Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Sualkuchi Muga Mekhela Chador — Natural Gold",
+      "slug": "sualkuchi-muga-mekhela-chador-natural-gold",
+      "sku": "MEK-MUG-001",
+      "shortDescription": "A two-piece Muga Mekhela Chador in undyed golden yarn, handwoven on Sualkuchi looms.",
+      "description": "Woven in Sualkuchi, the weaving village on the north bank of the Brahmaputra where Muga has been worked for generations. The yarn is undyed — the deep honey gold is the fibre's own colour, drawn from the Muga silkworm and nothing else. Both the mekhela and the chador are woven as a matched pair on the same loom so the sheen runs continuously across the drape. A fine kesa border edges the chador, and the anchal carries a narrow woven band rather than applied work. Muga is famously durable and its lustre deepens each time it is washed. Dry clean for the first two years, then a gentle cold hand wash. Store folded in unbleached muslin, away from direct light.",
+      "categoryId": 1,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289312/muga_1_V1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289308/muga_1_V2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289311/muga_1_V3.png"
+      ],
+      "price": 41,
+      "comparePrice": 380000000000,
+      "costPrice": 22400,
+      "stock": 9,
+      "lowStockThreshold": 3,
+      "weight": 1.15,
+      "dimensions": {
+        "length": 38,
+        "width": 28,
+        "height": 8
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Natural Gold",
+          "price": 3250000000,
+          "stock": 5,
+          "sku": "MEK-MUG-001-NGD"
+        },
+        {
+          "id": "v2",
+          "name": "Gold with Rust Border",
+          "price": 335000000000,
+          "stock": 4,
+          "sku": "MEK-MUG-001-GRB"
+        }
+      ],
+      "tags": [
+        "mekhela chador",
+        "muga",
+        "assam silk",
+        "sualkuchi",
+        "handloom",
+        "undyed",
+        "heirloom"
+      ],
+      "featured": true,
+      "trending": true,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.8,
+      "totalReviews": 41,
+      "metaTitle": "Sualkuchi Muga Mekhela Chador — Natural Gold | Meghali's Silk",
+      "metaDescription": "A two-piece Muga Mekhela Chador in undyed golden yarn, handwoven on Sualkuchi looms.",
+      "createdAt": "2025-03-12T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:03:30.628Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        19
+      ],
+      "relatedProductIds": [
+        13,
+        6,
+        10,
+        35
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pat Silk Mekhela Chador — Ivory & Gold",
+      "slug": "pat-silk-mekhela-chador-ivory-and-gold",
+      "sku": "MEK-PAT-006",
+      "shortDescription": "Ivory Pat silk with a gold zari border — the drape worn at Bihu across Assam.",
+      "description": "Pat is Assam's mulberry silk: brighter and finer than Muga, and traditionally kept in ivory and white. This is the drape you see on stage at Bihu — an ivory body, a gold zari border and anchal, nothing else competing with it. Handwoven in Sualkuchi. The chador is generous enough to pleat properly at the shoulder, and the mekhela is supplied unpleated. Pat holds a crisp fall straight off the loom and softens over the first few wears. Dry clean. Store away from damp, which is what dulls zari.",
+      "categoryId": 2,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289295/Pat_2_V2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289300/pat_2_v1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289299/pat_2_V3.png"
+      ],
+      "price": 18500,
+      "comparePrice": 22000,
+      "costPrice": 12700,
+      "stock": 12,
+      "lowStockThreshold": 4,
+      "weight": 0.95,
+      "dimensions": {
+        "length": 38,
+        "width": 28,
+        "height": 8
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Ivory",
+          "price": 18500,
+          "stock": 7,
+          "sku": "MEK-PAT-006-IVY"
+        },
+        {
+          "id": "v2",
+          "name": "Off White",
+          "price": 18500,
+          "stock": 5,
+          "sku": "MEK-PAT-006-OFW"
+        }
+      ],
+      "tags": [
+        "mekhela chador",
+        "pat",
+        "mulberry",
+        "assam silk",
+        "sualkuchi",
+        "handloom",
+        "bihu",
+        "zari"
+      ],
+      "featured": true,
+      "trending": false,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.7,
+      "totalReviews": 47,
+      "metaTitle": "Pat Silk Mekhela Chador — Ivory & Gold | Meghali's Silk",
+      "metaDescription": "Ivory Pat silk with a gold zari border — the drape worn at Bihu across Assam.",
+      "createdAt": "2025-01-28T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:06:10.418Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        19
+      ],
+      "relatedProductIds": [
+        16,
+        1,
+        10,
+        36
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Eri Silk Mekhela Chador — Undyed Natural",
+      "slug": "eri-silk-mekhela-chador-undyed-natural",
+      "sku": "MEK-ERI-010",
+      "shortDescription": "Undyed Eri in its own oatmeal colour — matte, warm and made for wearing often.",
+      "description": "Eri is the quiet member of the Assamese silk family. The cocoon is left to open before the yarn is reeled, so the filament is spun rather than drawn, and the cloth comes out matte and slightly textured instead of shiny. It is warmer than it looks and forgiving in a way Muga and Pat are not: it creases less, it hangs softer, and it wants to be worn rather than kept. Handwoven undyed in the natural oatmeal of the fibre. Gentle cold hand wash, dry in shade. It softens with every wash, which is the point.",
+      "categoryId": 3,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289289/Eri_1_v2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289293/Eri_1_v1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289291/Eri_1-V3.png"
+      ],
+      "price": 11500,
+      "comparePrice": 0,
+      "costPrice": 7900,
+      "stock": 16,
+      "lowStockThreshold": 5,
+      "weight": 0.85,
+      "dimensions": {
+        "length": 38,
+        "width": 28,
+        "height": 8
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Natural Oatmeal",
+          "price": 11500,
+          "stock": 9,
+          "sku": "MEK-ERI-010-NAT"
+        },
+        {
+          "id": "v2",
+          "name": "Natural with Rust",
+          "price": 11500,
+          "stock": 7,
+          "sku": "MEK-ERI-010-RST"
+        }
+      ],
+      "tags": [
+        "mekhela chador",
+        "eri",
+        "ahimsa",
+        "assam silk",
+        "handloom",
+        "undyed",
+        "everyday"
+      ],
+      "featured": false,
+      "trending": true,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.6,
+      "totalReviews": 38,
+      "metaTitle": "Eri Silk Mekhela Chador — Undyed Natural | Meghali's Silk",
+      "metaDescription": "Undyed Eri in its own oatmeal colour — matte, warm and made for wearing often.",
+      "createdAt": "2025-04-25T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:07:12.707Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        36
+      ],
+      "relatedProductIds": [
+        19,
+        6,
+        36,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Muga Silk Saree — Assam Golden",
+      "slug": "muga-silk-saree-assam-golden",
+      "sku": "SAR-MUG-013",
+      "shortDescription": "Six yards of undyed Muga with a woven border — the drape, in saree form.",
+      "description": "The same Sualkuchi Muga we weave into Mekhela Chador, run to six and a quarter yards for those who prefer a saree. Undyed golden yarn throughout, a woven border on both edges, and a plain anchal finished with a fine band. Muga's reputation for lasting is not marketing: pieces of it are handed down, and the sheen improves rather than fades with washing. Comes with an unstitched Muga blouse piece. Dry clean for the first two years, then a gentle cold hand wash. Store folded in unbleached muslin.",
+      "categoryId": 1,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289307/Muga_2_V2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289312/muga_2_V1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289308/muga_2_v3.png"
+      ],
+      "price": 27500,
+      "comparePrice": 32000,
+      "costPrice": 19000,
+      "stock": 10,
+      "lowStockThreshold": 3,
+      "weight": 0.85,
+      "dimensions": {
+        "length": 35,
+        "width": 25,
+        "height": 5
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Natural Gold",
+          "price": 27500,
+          "stock": 6,
+          "sku": "SAR-MUG-013-NGD"
+        },
+        {
+          "id": "v2",
+          "name": "Gold with Black Border",
+          "price": 27500,
+          "stock": 4,
+          "sku": "SAR-MUG-013-BLK"
+        }
+      ],
+      "tags": [
+        "saree",
+        "muga",
+        "assam silk",
+        "sualkuchi",
+        "handloom",
+        "undyed",
+        "heirloom"
+      ],
+      "featured": true,
+      "trending": true,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.8,
+      "totalReviews": 52,
+      "metaTitle": "Muga Silk Saree — Assam Golden | Meghali's Silk",
+      "metaDescription": "Six yards of undyed Muga with a woven border — the drape, in saree form.",
+      "createdAt": "2025-02-05T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:04:19.225Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        19
+      ],
+      "relatedProductIds": [
+        1,
+        16,
+        34,
+        19
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pat Silk Saree — Ivory Zari",
+      "slug": "pat-silk-saree-ivory-zari",
+      "sku": "SAR-PAT-016",
+      "shortDescription": "Ivory Pat silk with a gold zari border and anchal — the Assamese festive standard.",
+      "description": "Ivory and gold is the combination Assam reaches for at Bihu, at weddings, at anything that calls for silk. This saree keeps to it strictly: an ivory Pat ground, a gold zari border on both edges, and an anchal of woven zari bands. Handwoven in Sualkuchi. Pat has a brighter, finer surface than Muga and holds a crisp pleat, which is why it photographs so well under lights. Comes with an unstitched blouse piece. Dry clean, and keep it dry — damp is what tarnishes zari.",
+      "categoryId": 2,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289303/Pat_1_V1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289300/Pat_1_v2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289301/Pat_1_v3.png"
+      ],
+      "price": 14500,
+      "comparePrice": 17500,
+      "costPrice": 9900,
+      "stock": 14,
+      "lowStockThreshold": 5,
+      "weight": 0.7,
+      "dimensions": {
+        "length": 35,
+        "width": 25,
+        "height": 5
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Ivory",
+          "price": 14500,
+          "stock": 8,
+          "sku": "SAR-PAT-016-IVY"
+        },
+        {
+          "id": "v2",
+          "name": "Ivory with Red Border",
+          "price": 14500,
+          "stock": 6,
+          "sku": "SAR-PAT-016-RED"
+        }
+      ],
+      "tags": [
+        "saree",
+        "pat",
+        "mulberry",
+        "assam silk",
+        "sualkuchi",
+        "handloom",
+        "zari",
+        "bihu"
+      ],
+      "featured": true,
+      "trending": false,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.7,
+      "totalReviews": 44,
+      "metaTitle": "Pat Silk Saree — Ivory Zari | Meghali's Silk",
+      "metaDescription": "Ivory Pat silk with a gold zari border and anchal — the Assamese festive standard.",
+      "createdAt": "2025-01-18T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:08:07.763Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        36
+      ],
+      "relatedProductIds": [
+        6,
+        13,
+        19,
+        35
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Eri Silk Shawl — Undyed Ivory",
+      "slug": "eri-silk-shawl-undyed-ivory",
+      "sku": "STO-ERI-019",
+      "shortDescription": "A handspun Eri shawl in undyed ivory, warm enough for a Guwahati winter evening.",
+      "description": "Eri is spun rather than reeled, which gives it a soft, slightly irregular surface and a warmth closer to fine wool than to silk. This shawl is left undyed in the fibre's own pale ivory, with a plain hand-knotted fringe at both ends and no border. It is the piece to keep in a bag from November onwards. Handspun and handwoven in Assam. Gentle cold hand wash with a mild detergent, dry flat in shade. Eri gets softer and slightly fuller with each wash.",
+      "categoryId": 3,
+      "brand": "Meghali's Silk",
+      "images": [
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289290/Eri_2_v1.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289288/ERI_2_V2.png",
+        "https://res.cloudinary.com/v8vrixwq/image/upload/v1788289288/ERI_2_v3.png"
+      ],
+      "price": 4800,
+      "comparePrice": 0,
+      "costPrice": 3300,
+      "stock": 30,
+      "lowStockThreshold": 8,
+      "weight": 0.32,
+      "dimensions": {
+        "length": 30,
+        "width": 22,
+        "height": 4
+      },
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Undyed Ivory",
+          "price": 4800,
+          "stock": 16,
+          "sku": "STO-ERI-019-IVY"
+        },
+        {
+          "id": "v2",
+          "name": "Natural Oatmeal",
+          "price": 4800,
+          "stock": 14,
+          "sku": "STO-ERI-019-NAT"
+        }
+      ],
+      "tags": [
+        "stole",
+        "shawl",
+        "eri",
+        "ahimsa",
+        "assam silk",
+        "handloom",
+        "handspun",
+        "undyed"
+      ],
+      "featured": true,
+      "trending": true,
+      "hot": false,
+      "isActive": true,
+      "rating": 4.7,
+      "totalReviews": 58,
+      "metaTitle": "Eri Silk Shawl — Undyed Ivory | Meghali's Silk",
+      "metaDescription": "A handspun Eri shawl in undyed ivory, warm enough for a Guwahati winter evening.",
+      "createdAt": "2025-01-09T00:00:00.000Z",
+      "updatedAt": "2026-09-01T19:08:45.403Z",
+      "frequentlyBoughtTogetherIds": [
+        28,
+        36
+      ],
+      "relatedProductIds": [
+        10,
+        28,
+        36,
+        13
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "productId": 19,
+      "variantId": "v1",
+      "variantName": "Undyed Ivory",
+      "name": "Eri Silk Shawl — Undyed Ivory",
+      "image": "https://placehold.co/600x800/FAF6EC/5C554A?text=Eri+Shawl",
+      "price": 4800,
+      "comparePrice": 0,
+      "currency": "INR",
+      "quantity": 1,
+      "stock": 16,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "ORD-20250310-0001",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 6,
+          "variantId": "v1",
+          "name": "Pure Tussar Silk Saree — Indigo Block Print - Indigo",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Tussar+Indigo",
+          "sku": "SAR-TUS-006-IND",
+          "price": 8999,
+          "quantity": 1,
+          "subtotal": 8999
+        }
+      ],
+      "billingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "addressLine2": "Apt 4B",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "shippingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "addressLine2": "Apt 4B",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "subtotal": 8999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 1440,
+      "total": 10439,
+      "paymentStatus": "refunded",
+      "paymentMethod": "upi",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "shipped",
+      "trackingNumber": "SHIP123456789IN",
+      "trackingUrl": "https://shiprocket.co/tracking/SHIP123456789IN",
+      "shiprocketOrderId": null,
+      "notes": "",
+      "createdAt": "2026-01-15T10:30:00.000Z",
+      "updatedAt": "2026-06-12T07:14:06.552Z",
+      "statusHistory": [
+        {
+          "at": "2026-01-15T10:30:00.000Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-01-15T10:31:00.000Z",
+          "by": "System",
+          "action": "Payment captured",
+          "note": "UPI via Razorpay"
+        },
+        {
+          "at": "2026-01-16T09:00:00.000Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped",
+          "note": "Tracking SHIP123456789IN"
+        },
+        {
+          "at": "2026-01-22T14:30:00.000Z",
+          "by": "Admin User",
+          "action": "Return refund processed (RET-20260120-0001)",
+          "note": "₹10,439 refunded"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderNumber": "ORD-20250318-0002",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 22,
+          "variantId": "v1",
+          "name": "Bridal Silk Lehenga — Crimson Zardozi - Crimson / M",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Bridal+Lehenga",
+          "sku": "LEH-SLK-022-CRM-M",
+          "price": 74999,
+          "quantity": 1,
+          "subtotal": 74999
+        },
+        {
+          "productId": 19,
+          "variantId": "v1",
+          "name": "Pure Silk Unstitched Suit Set — Wine Floral - Wine / Free Size",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Silk+Suit",
+          "sku": "SUT-SLK-019-WIN-FS",
+          "price": 3499,
+          "quantity": 1,
+          "subtotal": 3499
+        }
+      ],
+      "billingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "addressLine2": "Apt 4B",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "shippingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "addressLine2": "Apt 4B",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "subtotal": 78498,
+      "discountAmount": 5000,
+      "couponCode": "WELCOME500",
+      "shippingAmount": 0,
+      "taxAmount": 11759,
+      "total": 85257,
+      "paymentStatus": "paid",
+      "paymentMethod": "card",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "shipped",
+      "trackingNumber": "SHIP987654321IN",
+      "trackingUrl": "https://shiprocket.co/tracking/SHIP987654321IN",
+      "shiprocketOrderId": "SR-78923",
+      "notes": "Please leave at reception",
+      "createdAt": "2026-02-01T14:20:00.000Z",
+      "updatedAt": "2026-02-03T09:00:00.000Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T14:20:00.000Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-02-01T14:21:00.000Z",
+          "by": "System",
+          "action": "Payment captured",
+          "note": "Card via Razorpay"
+        },
+        {
+          "at": "2026-02-03T09:00:00.000Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped",
+          "note": "Tracking SHIP987654321IN"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "orderNumber": "ORD-20260310-0003",
+      "userId": 2,
+      "items": [
+        {
+          "productId": 16,
+          "variantId": "v1",
+          "name": "Baluchari Silk Saree — Maroon Narrative Pallu - Maroon",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Baluchari+Silk",
+          "sku": "SAR-BAL-016-MRN",
+          "price": 16999,
+          "quantity": 1,
+          "subtotal": 16999
+        }
+      ],
+      "billingAddress": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "phone": "+91 9123456789",
+        "addressLine1": "456 Park Avenue",
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "India"
+      },
+      "shippingAddress": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "phone": "+91 9123456789",
+        "addressLine1": "456 Park Avenue",
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "India"
+      },
+      "subtotal": 16999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 99,
+      "taxAmount": 2720,
+      "total": 19818,
+      "paymentStatus": "refunded",
+      "paymentMethod": "card",
+      "fulfillmentStatus": "unfulfilled",
+      "shippingStatus": "pending",
+      "trackingNumber": null,
+      "shiprocketOrderId": null,
+      "notes": "",
+      "createdAt": "2026-03-10T08:45:00.000Z",
+      "updatedAt": "2026-06-13T06:13:05.821Z",
+      "statusHistory": [
+        {
+          "at": "2026-03-10T08:45:00.000Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-03-10T08:46:00.000Z",
+          "by": "System",
+          "action": "Payment captured",
+          "note": "Card via Razorpay"
+        },
+        {
+          "at": "2026-06-13T06:13:05.821Z",
+          "by": "Admin User",
+          "action": "Refund issued (₹19,818)",
+          "note": "Refunded from order"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "orderNumber": "ORD-20260315-0004",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 29,
+          "variantId": "v1",
+          "name": "Mulberry Silk Stole — Pastel Set - Mint",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Mulberry+Stole",
+          "sku": "STO-MUL-029-MNT",
+          "price": 899,
+          "quantity": 3,
+          "subtotal": 2697
+        }
+      ],
+      "billingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "shippingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+91 9876543210",
+        "addressLine1": "123 Main Street",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India"
+      },
+      "subtotal": 2697,
+      "discountAmount": 270,
+      "couponCode": "FLAT10",
+      "shippingAmount": 49,
+      "taxAmount": 398,
+      "total": 2874,
+      "paymentStatus": "pending",
+      "paymentMethod": "cod",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "shipped",
+      "trackingNumber": null,
+      "shiprocketOrderId": null,
+      "notes": "",
+      "createdAt": "2026-03-15T16:00:00.000Z",
+      "updatedAt": "2026-06-12T14:17:08.244Z",
+      "statusHistory": [
+        {
+          "at": "2026-03-15T16:00:00.000Z",
+          "by": "Customer",
+          "action": "Order placed",
+          "note": "Cash on delivery"
+        },
+        {
+          "at": "2026-06-12T14:17:08.244Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "productId": 17,
+          "variantId": "v1",
+          "name": "Baluchari Silk Saree — Midnight Blue - Midnight Blue",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Baluchari+Blue",
+          "sku": "SAR-BAL-017-BLU",
+          "price": 14999,
+          "quantity": 1,
+          "subtotal": 14999
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "billingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "subtotal": 14999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 2700,
+      "total": 17699,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "fulfillmentStatus": "cancelled",
+      "shippingStatus": "pending",
+      "trackingNumber": null,
+      "notes": "",
+      "userId": 3,
+      "orderNumber": "ORD-MMYJ01ED-ZR26",
+      "createdAt": "2026-03-20T06:36:26.005Z",
+      "updatedAt": "2026-06-12T01:46:10.397Z",
+      "id": 5,
+      "cancelledAt": "2026-06-12T01:46:10.397Z",
+      "statusHistory": [
+        {
+          "at": "2026-03-20T06:36:26.005Z",
+          "by": "Customer",
+          "action": "Order placed",
+          "note": "Cash on delivery"
+        },
+        {
+          "at": "2026-06-12T01:46:10.397Z",
+          "by": "Customer",
+          "action": "Order cancelled",
+          "note": "Cancelled by customer"
+        }
+      ],
+      "cancelReason": "Cancelled by customer"
+    },
+    {
+      "items": [
+        {
+          "productId": 17,
+          "variantId": "v1",
+          "name": "Baluchari Silk Saree — Midnight Blue - Midnight Blue",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Baluchari+Blue",
+          "sku": "SAR-BAL-017-BLU",
+          "price": 14999,
+          "quantity": 1,
+          "subtotal": 14999
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "billingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "subtotal": 14999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 2700,
+      "total": 17699,
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "shipped",
+      "trackingNumber": "TEST63452634532563242346",
+      "trackingUrl": "https://www.delhivery.com/track/package/TEST63452634532563242346",
+      "notes": "Delivered",
+      "userId": 3,
+      "orderNumber": "ORD-MQA9I6E7-0IR2",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-12T01:42:57.247Z",
+      "updatedAt": "2026-06-12T01:49:56.924Z",
+      "id": 6,
+      "statusHistory": [
+        {
+          "at": "2026-06-12T01:42:57.247Z",
+          "by": "Customer",
+          "action": "Order placed",
+          "note": "Cash on delivery"
+        },
+        {
+          "at": "2026-06-12T01:48:30.000Z",
+          "by": "Admin User",
+          "action": "Payment marked as paid"
+        },
+        {
+          "at": "2026-06-12T01:49:56.924Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped",
+          "note": "Tracking TEST63452634532563242346"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "productId": 3,
+          "variantId": "v1",
+          "name": "Banarasi Georgette Silk Saree — Wine - Wine",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Georgette+Silk",
+          "sku": "SAR-BAN-003-WIN",
+          "price": 8999,
+          "quantity": 1,
+          "subtotal": 8999
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "billingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "subtotal": 8999,
+      "discountAmount": 500,
+      "couponCode": "WELCOME500",
+      "shippingAmount": 0,
+      "taxAmount": 1530,
+      "total": 10029,
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "delivered",
+      "trackingNumber": "12331231212",
+      "notes": "Test Notes",
+      "userId": 3,
+      "orderNumber": "ORD-MQB0JHUB-9KL6",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-12T14:19:48.371Z",
+      "updatedAt": "2026-06-12T14:49:17.688Z",
+      "id": 7,
+      "statusHistory": [
+        {
+          "at": "2026-06-12T14:19:48.371Z",
+          "by": "Customer",
+          "action": "Order placed",
+          "note": "Cash on delivery"
+        },
+        {
+          "at": "2026-06-12T14:47:54.035Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped"
+        },
+        {
+          "at": "2026-06-12T14:48:06.179Z",
+          "by": "Admin User",
+          "action": "Tracking updated"
+        },
+        {
+          "at": "2026-06-12T14:48:34.835Z",
+          "by": "Admin User",
+          "action": "Tracking updated",
+          "note": "Tracking 12331231212"
+        },
+        {
+          "at": "2026-06-12T14:49:04.101Z",
+          "by": "Admin User",
+          "action": "Marked delivered"
+        },
+        {
+          "at": "2026-06-12T14:49:17.716Z",
+          "by": "Admin User",
+          "action": "Payment marked as paid"
+        }
+      ],
+      "deliveredAt": "2026-06-12T14:49:04.053Z"
+    },
+    {
+      "items": [
+        {
+          "productId": 18,
+          "variantId": "v1",
+          "name": "Bengal Handloom Silk Saree — Dhakai Jamdani - White / Red",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Dhakai+Jamdani",
+          "sku": "SAR-BEN-018-WHR",
+          "price": 3999,
+          "quantity": 1,
+          "subtotal": 3999
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "billingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "subtotal": 3999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 199,
+      "taxAmount": 720,
+      "total": 4918,
+      "paymentMethod": "cod",
+      "paymentStatus": "refunded",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "delivered",
+      "trackingNumber": "532352353252",
+      "notes": "Order Shipped",
+      "userId": 3,
+      "orderNumber": "ORD-MQC1HWSZ-CAN8",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-13T07:34:20.243Z",
+      "updatedAt": "2026-06-13T12:57:28.282Z",
+      "statusHistory": [
+        {
+          "at": "2026-06-13T07:34:20.243Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-06-13T07:36:12.080Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped",
+          "note": "Tracking 532352353252 · tracking link added"
+        },
+        {
+          "at": "2026-06-13T07:38:00.486Z",
+          "by": "Admin User",
+          "action": "Tracking updated",
+          "note": "Tracking 532352353252 · tracking link added"
+        },
+        {
+          "at": "2026-06-13T12:49:23.385Z",
+          "by": "Admin User",
+          "action": "Marked delivered"
+        },
+        {
+          "at": "2026-06-13T12:49:44.526Z",
+          "by": "Admin User",
+          "action": "Payment marked as paid"
+        },
+        {
+          "at": "2026-06-13T12:55:11.832Z",
+          "by": "Admin User",
+          "action": "Refund initiated",
+          "note": "₹4,918 via store credit · ref ORDER ID - ORD-MQC1HWSZ-CAN8 — settlement pending"
+        },
+        {
+          "at": "2026-06-13T12:57:28.351Z",
+          "by": "Admin User",
+          "action": "Refund completed",
+          "note": "₹4,918 via store credit settled to customer"
+        }
+      ],
+      "id": 8,
+      "trackingUrl": "https://www.indiapost.com/tracking",
+      "deliveredAt": "2026-06-13T12:49:23.351Z",
+      "refundStatus": "completed",
+      "refundMethod": "store_credit",
+      "pendingRefund": null,
+      "refundedAmount": 4918,
+      "refundCompletedAt": "2026-06-13T12:57:28.282Z"
+    },
+    {
+      "items": [
+        {
+          "productId": 22,
+          "variantId": "v1",
+          "name": "Bridal Silk Lehenga — Crimson Zardozi - Crimson / M",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Bridal+Lehenga",
+          "sku": "LEH-SLK-022-CRM-M",
+          "price": 64999,
+          "quantity": 1,
+          "subtotal": 64999
+        }
+      ],
+      "shippingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "billingAddress": {
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India"
+      },
+      "subtotal": 64999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 11700,
+      "total": 76699,
+      "storeCreditUsed": 1000,
+      "amountPayable": 75699,
+      "paymentMethod": "upi",
+      "paymentStatus": "refunded",
+      "fulfillmentStatus": "unfulfilled",
+      "shippingStatus": "pending",
+      "trackingNumber": null,
+      "notes": "",
+      "userId": 3,
+      "orderNumber": "ORD-MQCGV6OM-Z965",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-13T14:44:33.814Z",
+      "updatedAt": "2026-09-01T10:50:15.454Z",
+      "statusHistory": [
+        {
+          "at": "2026-06-13T14:44:33.814Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-09-01T10:50:15.454Z",
+          "by": "Admin User",
+          "action": "Refund issued (₹75,699)"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "productId": 22,
+          "variantId": "v1",
+          "name": "Bridal Silk Lehenga — Crimson Zardozi - Crimson / M",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Bridal+Lehenga",
+          "sku": "LEH-SLK-022-CRM-M",
+          "price": 64999,
+          "quantity": 1,
+          "subtotal": 64999
+        },
+        {
+          "productId": 17,
+          "variantId": "v1",
+          "name": "Baluchari Silk Saree — Midnight Blue - Midnight Blue",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Baluchari+Blue",
+          "sku": "SAR-BAL-017-BLU",
+          "price": 14999,
+          "quantity": 1,
+          "subtotal": 14999
+        }
+      ],
+      "shippingAddress": {
+        "id": 1,
+        "label": "Home",
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India",
+        "isDefault": true
+      },
+      "billingAddress": {
+        "id": 1,
+        "label": "Home",
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 79998,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 14400,
+      "total": 94398,
+      "storeCreditUsed": 0,
+      "amountPayable": 94398,
+      "paymentMethod": "upi",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "fulfilled",
+      "shippingStatus": "shipped",
+      "trackingNumber": null,
+      "notes": "",
+      "userId": 3,
+      "orderNumber": "ORD-MQDUWC74-RUVY",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-14T14:05:08.416Z",
+      "updatedAt": "2026-09-01T14:03:10.408Z",
+      "statusHistory": [
+        {
+          "at": "2026-06-14T14:05:08.416Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-09-01T10:45:21.383Z",
+          "by": "Admin User",
+          "action": "Refund initiated",
+          "note": "₹94,398 via original payment · ref mdbcmndzdc kjdcb — settlement pending"
+        },
+        {
+          "at": "2026-09-01T14:03:10.442Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped"
+        }
+      ],
+      "id": 10,
+      "refundStatus": "processing",
+      "refundMethod": "original_payment",
+      "pendingRefund": {
+        "amount": 94398,
+        "method": "original_payment",
+        "reason": "dasbzkufhsfkjnds",
+        "reference": "mdbcmndzdc kjdcb",
+        "initiatedAt": "2026-09-01T10:45:21.382Z",
+        "by": "Admin User"
+      },
+      "trackingUrl": null
+    },
+    {
+      "items": [
+        {
+          "productId": 3,
+          "variantId": "v1",
+          "name": "Banarasi Georgette Silk Saree — Wine - Wine",
+          "image": "https://placehold.co/600x800/0B3B2E/CBA35A?text=Georgette+Silk",
+          "sku": "SAR-BAN-003-WIN",
+          "price": 8999,
+          "quantity": 1,
+          "subtotal": 8999
+        }
+      ],
+      "shippingAddress": {
+        "id": 1,
+        "label": "Home",
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India",
+        "isDefault": true
+      },
+      "billingAddress": {
+        "id": 1,
+        "label": "Home",
+        "firstName": "Bappi",
+        "lastName": "Das",
+        "phone": "+919707112233",
+        "addressLine1": "Moutupuri, Barpeta",
+        "addressLine2": "Near BH College",
+        "city": "Howly",
+        "state": "Assam",
+        "postalCode": "781316",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 8999,
+      "discountAmount": 0,
+      "couponCode": null,
+      "shippingAmount": 0,
+      "taxAmount": 1620,
+      "total": 10619,
+      "storeCreditUsed": 1000,
+      "amountPayable": 9619,
+      "paymentMethod": "upi",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "cancelled",
+      "shippingStatus": "recalled",
+      "trackingNumber": "4423243243243244",
+      "notes": "Test Note",
+      "userId": 3,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "shiprocketOrderId": null,
+      "createdAt": "2026-06-14T14:22:33.199Z",
+      "updatedAt": "2026-09-01T14:03:01.389Z",
+      "statusHistory": [
+        {
+          "at": "2026-06-14T14:22:33.200Z",
+          "by": "Customer",
+          "action": "Order placed"
+        },
+        {
+          "at": "2026-06-20T06:23:53.963Z",
+          "by": "Admin User",
+          "action": "Fulfilled & shipped",
+          "note": "Tracking 4423243243243244 · tracking link added"
+        },
+        {
+          "at": "2026-06-20T06:24:29.157Z",
+          "by": "Admin User",
+          "action": "Marked delivered"
+        },
+        {
+          "at": "2026-09-01T14:01:53.064Z",
+          "by": "Admin User",
+          "action": "Tracking updated",
+          "note": "Tracking 4423243243243244 · tracking link added"
+        },
+        {
+          "at": "2026-09-01T14:02:11.882Z",
+          "by": "Admin User",
+          "action": "Order cancelled",
+          "note": "mmm"
+        },
+        {
+          "at": "2026-09-01T14:02:11.882Z",
+          "by": "Admin User",
+          "action": "Shipment recall initiated",
+          "note": "Return tracking 4423243243243244"
+        },
+        {
+          "at": "2026-09-01T14:02:11.883Z",
+          "by": "Admin User",
+          "action": "Refund initiated",
+          "note": "₹9,619 via original payment — settlement pending"
+        },
+        {
+          "at": "2026-09-01T14:02:12.133Z",
+          "by": "Admin User",
+          "action": "Store credit returned",
+          "note": "₹1,000 added back to your wallet"
+        },
+        {
+          "at": "2026-09-01T14:02:22.119Z",
+          "by": "Admin User",
+          "action": "Refund failed",
+          "note": "Settlement failed — re-initiate the refund"
+        },
+        {
+          "at": "2026-09-01T14:03:01.389Z",
+          "by": "Admin User",
+          "action": "Refund initiated",
+          "note": "₹9,619 via original payment — settlement pending"
+        }
+      ],
+      "id": 11,
+      "trackingUrl": "https://www.google.com",
+      "deliveredAt": "2026-06-20T06:24:29.130Z",
+      "cancelReason": "mmm",
+      "cancelledAt": "2026-09-01T14:02:11.882Z",
+      "recall": {
+        "trackingNumber": "4423243243243244",
+        "trackingUrl": "https://www.google.com",
+        "carrier": null,
+        "scheduledAt": "2026-09-01T14:02:11.882Z",
+        "by": "Admin User"
+      },
+      "refundStatus": "processing",
+      "refundMethod": "original_payment",
+      "pendingRefund": {
+        "amount": 9619,
+        "method": "original_payment",
+        "reason": "hghmbnmb",
+        "reference": null,
+        "initiatedAt": "2026-09-01T14:03:01.389Z",
+        "by": "Admin User"
+      },
+      "storeCreditReturned": true
+    }
+  ],
+  "returns": [
+    {
+      "id": 1,
+      "returnNumber": "RET-20260120-0001",
+      "orderId": 1,
+      "orderNumber": "ORD-20250310-0001",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "variantId": "v1",
+          "name": "SoundWave Pro Wireless Earbuds - Midnight Black",
+          "sku": "AUD-SWP-TWS-BLK",
+          "price": 8999,
+          "quantity": 1,
+          "subtotal": 8999
+        }
+      ],
+      "reason": "defective",
+      "reasonDetails": "Left earbud has no sound",
+      "status": "approved",
+      "refundAmount": 8999,
+      "refundStatus": "processed",
+      "refundMethod": "original_payment",
+      "images": [],
+      "notes": "Refund processed to original UPI account",
+      "createdAt": "2026-01-20T10:00:00.000Z",
+      "updatedAt": "2026-01-22T14:30:00.000Z",
+      "statusHistory": [
+        {
+          "at": "2026-01-20T10:00:00.000Z",
+          "by": "Customer",
+          "action": "Return created",
+          "note": "Reason: defective"
+        },
+        {
+          "at": "2026-01-21T11:00:00.000Z",
+          "by": "Admin User",
+          "action": "Return approved"
+        },
+        {
+          "at": "2026-01-22T10:00:00.000Z",
+          "by": "Admin User",
+          "action": "Items received"
+        },
+        {
+          "at": "2026-01-22T14:30:00.000Z",
+          "by": "Admin User",
+          "action": "Refund processed (₹10,439)",
+          "note": "Refund processed to original UPI account"
+        }
+      ],
+      "deductionAmount": 0,
+      "restocked": true,
+      "returnTrackingNumber": "RETN-SR-1029384",
+      "returnTrackingUrl": "https://shiprocket.co/tracking/RETN-SR-1029384",
+      "returnCarrier": "Shiprocket",
+      "pickupScheduledAt": "2026-01-21T11:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "returnNumber": "RET-20260612-0002",
+      "orderId": 6,
+      "orderNumber": "ORD-MQA9I6E7-0IR2",
+      "userId": 3,
+      "items": [
+        {
+          "productId": 3,
+          "variantId": "v1",
+          "name": "FitPulse Smartwatch Series 5 - Black / Rubber Band",
+          "sku": "ELC-FPS-SW5-BLK-R",
+          "price": 14999,
+          "quantity": 1,
+          "subtotal": 14999
+        }
+      ],
+      "reason": "not_as_described",
+      "reasonDetails": "Strap quality is not as shown in the product photos.",
+      "status": "approved",
+      "refundAmount": 14999,
+      "refundStatus": "pending",
+      "refundMethod": "original_payment",
+      "deductionAmount": 0,
+      "restocked": false,
+      "returnTrackingNumber": null,
+      "returnTrackingUrl": null,
+      "returnCarrier": null,
+      "pickupScheduledAt": null,
+      "images": [],
+      "notes": "",
+      "statusHistory": [
+        {
+          "at": "2026-06-12T05:30:00.000Z",
+          "by": "Customer",
+          "action": "Return created",
+          "note": "Reason: not_as_described"
+        },
+        {
+          "at": "2026-09-01T10:46:31.832Z",
+          "by": "Admin User",
+          "action": "Return approved"
+        }
+      ],
+      "createdAt": "2026-06-12T05:30:00.000Z",
+      "updatedAt": "2026-09-01T10:46:31.801Z"
+    },
+    {
+      "returnNumber": "RET-20260901-DYDT",
+      "status": "approved",
+      "refundStatus": "pending",
+      "refundMethod": "original_payment",
+      "deductionAmount": 0,
+      "restocked": false,
+      "returnTrackingNumber": null,
+      "returnTrackingUrl": null,
+      "returnCarrier": null,
+      "pickupScheduledAt": null,
+      "images": [],
+      "notes": "",
+      "orderId": 2,
+      "orderNumber": "ORD-20250318-0002",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 22,
+          "variantId": "v1",
+          "name": "Bridal Silk Lehenga — Crimson Zardozi - Crimson / M",
+          "sku": "LEH-SLK-022-CRM-M",
+          "price": 74999,
+          "quantity": 1,
+          "subtotal": 74999
+        },
+        {
+          "productId": 19,
+          "variantId": "v1",
+          "name": "Pure Silk Unstitched Suit Set — Wine Floral - Wine / Free Size",
+          "sku": "SUT-SLK-019-WIN-FS",
+          "price": 3499,
+          "quantity": 1,
+          "subtotal": 3499
+        }
+      ],
+      "reason": "defective",
+      "reasonDetails": "",
+      "refundAmount": 73498,
+      "statusHistory": [
+        {
+          "at": "2026-09-01T10:49:38.840Z",
+          "by": "Admin User",
+          "action": "Return created",
+          "note": "Reason: defective"
+        },
+        {
+          "at": "2026-09-01T14:00:26.871Z",
+          "by": "Admin User",
+          "action": "Return approved"
+        }
+      ],
+      "createdAt": "2026-09-01T10:49:38.840Z",
+      "updatedAt": "2026-09-01T14:00:26.840Z",
+      "id": 3
+    },
+    {
+      "returnNumber": "RET-20260901-3EP8",
+      "status": "approved",
+      "refundStatus": "pending",
+      "refundMethod": "original_payment",
+      "deductionAmount": 0,
+      "restocked": false,
+      "returnTrackingNumber": null,
+      "returnTrackingUrl": null,
+      "returnCarrier": null,
+      "pickupScheduledAt": null,
+      "images": [],
+      "notes": "",
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "userId": 3,
+      "items": [
+        {
+          "productId": 3,
+          "variantId": "v1",
+          "name": "Banarasi Georgette Silk Saree — Wine - Wine",
+          "sku": "SAR-BAN-003-WIN",
+          "price": 8999,
+          "quantity": 1,
+          "subtotal": 8999
+        }
+      ],
+      "reason": "defective",
+      "reasonDetails": "",
+      "refundAmount": 8999,
+      "statusHistory": [
+        {
+          "at": "2026-09-01T14:00:11.679Z",
+          "by": "Admin User",
+          "action": "Return created",
+          "note": "Reason: defective"
+        },
+        {
+          "at": "2026-09-01T14:00:29.662Z",
+          "by": "Admin User",
+          "action": "Return approved"
+        }
+      ],
+      "createdAt": "2026-09-01T14:00:11.678Z",
+      "updatedAt": "2026-09-01T14:00:29.633Z",
+      "id": 4
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "orderNumber": "ORD-20250310-0001",
+      "userId": 1,
+      "amount": 10439,
+      "currency": "INR",
+      "paymentMethod": "upi",
+      "gateway": "razorpay",
+      "transactionId": "pay_RZP123456789",
+      "gatewayOrderId": "order_RZP987654321",
+      "status": "refunded",
+      "gatewayResponse": {
+        "code": "SUCCESS",
+        "bank": null,
+        "wallet": "PhonePe"
+      },
+      "createdAt": "2026-01-15T10:31:00.000Z",
+      "updatedAt": "2026-06-12T07:12:56.342Z",
+      "refundAmount": 10439,
+      "refundReason": "Return RET-20260120-0001",
+      "refunds": [
+        {
+          "id": "ref_seed0001",
+          "amount": 10439,
+          "reason": "Return RET-20260120-0001",
+          "at": "2026-01-22T14:30:00.000Z",
+          "by": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderId": 2,
+      "orderNumber": "ORD-20250318-0002",
+      "userId": 1,
+      "amount": 85257,
+      "currency": "INR",
+      "paymentMethod": "card",
+      "gateway": "razorpay",
+      "transactionId": "pay_RZP234567890",
+      "gatewayOrderId": "order_RZP876543210",
+      "status": "captured",
+      "gatewayResponse": {
+        "code": "SUCCESS",
+        "bank": "HDFC",
+        "last4": "4242"
+      },
+      "createdAt": "2026-02-01T14:21:00.000Z",
+      "updatedAt": "2026-02-01T14:21:45.000Z"
+    },
+    {
+      "id": 3,
+      "orderId": 3,
+      "orderNumber": "ORD-20260310-0003",
+      "userId": 2,
+      "amount": 19818,
+      "currency": "INR",
+      "paymentMethod": "card",
+      "gateway": "razorpay",
+      "transactionId": "pay_RZP345678901",
+      "gatewayOrderId": "order_RZP765432109",
+      "status": "refunded",
+      "gatewayResponse": {
+        "code": "SUCCESS",
+        "bank": "ICICI",
+        "last4": "1234"
+      },
+      "createdAt": "2026-03-10T08:46:00.000Z",
+      "updatedAt": "2026-06-13T06:13:05.674Z",
+      "refundAmount": 19818,
+      "refundReason": "Refunded from order",
+      "refunds": [
+        {
+          "id": "ref_mqbylfkanpi6",
+          "amount": 19818,
+          "reason": "Refunded from order",
+          "at": "2026-06-13T06:13:05.674Z",
+          "by": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "orderId": 6,
+      "orderNumber": "ORD-MQA9I6E7-0IR2",
+      "userId": 3,
+      "amount": 17699,
+      "currency": "INR",
+      "paymentMethod": "cod",
+      "gateway": "cod",
+      "transactionId": "cod_MQA9I6E7",
+      "gatewayOrderId": null,
+      "status": "captured",
+      "gatewayResponse": {},
+      "refunds": [],
+      "refundAmount": 0,
+      "refundReason": "",
+      "createdAt": "2026-06-12T01:48:30.000Z",
+      "updatedAt": "2026-06-12T01:48:30.000Z"
+    },
+    {
+      "id": 5,
+      "orderId": 7,
+      "orderNumber": "ORD-MQB0JHUB-9KL6",
+      "userId": 3,
+      "amount": 10029,
+      "currency": "INR",
+      "paymentMethod": "cod",
+      "gateway": "cod",
+      "transactionId": null,
+      "gatewayOrderId": null,
+      "status": "pending",
+      "gatewayResponse": {},
+      "refunds": [],
+      "refundAmount": 0,
+      "refundReason": "",
+      "createdAt": "2026-06-12T14:19:48.371Z",
+      "updatedAt": "2026-06-12T14:19:48.371Z"
+    },
+    {
+      "orderId": 8,
+      "orderNumber": "ORD-MQC1HWSZ-CAN8",
+      "userId": 3,
+      "amount": 4918,
+      "currency": "INR",
+      "paymentMethod": "cod",
+      "gateway": "cod",
+      "transactionId": null,
+      "gatewayOrderId": null,
+      "status": "refunded",
+      "gatewayResponse": {},
+      "createdAt": "2026-06-13T07:34:20.277Z",
+      "updatedAt": "2026-06-13T12:57:28.314Z",
+      "id": 6,
+      "refundAmount": 4918,
+      "refundReason": "Bengal Handloom Silk Saree — Dhakai Jamdani - White / Red is returned",
+      "refunds": [
+        {
+          "id": "ref_mqcd1gqipep7",
+          "amount": 4918,
+          "reason": "AirStride Running Shoes - UK 7 - Black is returned",
+          "at": "2026-06-13T12:57:28.314Z",
+          "by": "Admin User"
+        }
+      ],
+      "pendingRefund": null
+    },
+    {
+      "orderId": 9,
+      "orderNumber": "ORD-MQCGV6OM-Z965",
+      "userId": 3,
+      "amount": 75699,
+      "currency": "INR",
+      "paymentMethod": "upi",
+      "gateway": "razorpay",
+      "transactionId": "pay_MOCKMQCGV6Q2",
+      "gatewayOrderId": "order_MOCKMQCGV6Q2",
+      "status": "refunded",
+      "storeCreditApplied": 1000,
+      "gatewayResponse": {},
+      "createdAt": "2026-06-13T14:44:33.866Z",
+      "updatedAt": "2026-09-01T10:50:15.351Z",
+      "id": 7,
+      "refundAmount": 75699,
+      "refundReason": "",
+      "refunds": [
+        {
+          "id": "ref_mtijq0fr6c2d",
+          "amount": 75699,
+          "reason": "",
+          "at": "2026-09-01T10:50:15.351Z",
+          "by": "Admin User"
+        }
+      ],
+      "pendingRefund": null
+    },
+    {
+      "orderId": 10,
+      "orderNumber": "ORD-MQDUWC74-RUVY",
+      "userId": 3,
+      "amount": 94398,
+      "currency": "INR",
+      "paymentMethod": "upi",
+      "gateway": "razorpay",
+      "transactionId": "pay_MOCKMQDUWC82",
+      "gatewayOrderId": "order_MOCKMQDUWC82",
+      "status": "refund_pending",
+      "storeCreditApplied": 0,
+      "gatewayResponse": {},
+      "createdAt": "2026-06-14T14:05:08.450Z",
+      "updatedAt": "2026-09-01T10:45:21.468Z",
+      "id": 8,
+      "pendingRefund": {
+        "amount": 94398,
+        "method": "original_payment",
+        "reason": "dasbzkufhsfkjnds",
+        "initiatedAt": "2026-09-01T10:45:21.468Z",
+        "by": "Admin User"
+      }
+    },
+    {
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "userId": 3,
+      "amount": 9619,
+      "currency": "INR",
+      "paymentMethod": "upi",
+      "gateway": "razorpay",
+      "transactionId": "pay_MOCKMQDVIQEE",
+      "gatewayOrderId": "order_MOCKMQDVIQEE",
+      "status": "refund_pending",
+      "storeCreditApplied": 1000,
+      "gatewayResponse": {},
+      "createdAt": "2026-06-14T14:22:33.254Z",
+      "updatedAt": "2026-09-01T14:03:01.448Z",
+      "id": 9,
+      "pendingRefund": {
+        "amount": 9619,
+        "method": "original_payment",
+        "reason": "hghmbnmb",
+        "initiatedAt": "2026-09-01T14:03:01.448Z",
+        "by": "Admin User"
+      }
+    }
+  ],
+  "refunds": [
+    {
+      "id": 1,
+      "refundNumber": "REF-20260122-7K2A",
+      "type": "return_refund",
+      "orderId": 1,
+      "orderNumber": "ORD-20250310-0001",
+      "returnId": 1,
+      "returnNumber": "RET-20260120-0001",
+      "paymentId": 1,
+      "amount": 10439,
+      "method": "original_payment",
+      "reason": "Return RET-20260120-0001",
+      "status": "completed",
+      "couponRestored": false,
+      "initiatedAt": "2026-01-22T14:30:00.000Z",
+      "settledAt": "2026-01-22T14:30:00.000Z",
+      "by": "Admin User",
+      "createdAt": "2026-01-22T14:30:00.000Z",
+      "updatedAt": "2026-01-22T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "refundNumber": "REF-20260613-9QM4",
+      "type": "order_refund",
+      "orderId": 3,
+      "orderNumber": "ORD-20260310-0003",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": 3,
+      "amount": 19818,
+      "method": "original_payment",
+      "reason": "Refunded from order",
+      "status": "completed",
+      "couponRestored": false,
+      "initiatedAt": "2026-06-13T06:13:05.674Z",
+      "settledAt": "2026-06-13T06:13:05.674Z",
+      "by": "Admin User",
+      "createdAt": "2026-06-13T06:13:05.674Z",
+      "updatedAt": "2026-06-13T06:13:05.674Z"
+    },
+    {
+      "refundNumber": "REF-20260613-JQ3L",
+      "type": "order_refund",
+      "orderId": 8,
+      "orderNumber": "ORD-MQC1HWSZ-CAN8",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": null,
+      "amount": 4918,
+      "method": "store_credit",
+      "reason": "AirStride Running Shoes - UK 7 - Black is returned",
+      "reference": "ORDER ID - ORD-MQC1HWSZ-CAN8",
+      "status": "completed",
+      "couponRestored": false,
+      "initiatedAt": "2026-06-13T12:55:11.910Z",
+      "settledAt": "2026-06-13T12:57:28.419Z",
+      "by": "Admin User",
+      "createdAt": "2026-06-13T12:55:11.910Z",
+      "updatedAt": "2026-06-13T12:57:28.419Z",
+      "id": 3
+    },
+    {
+      "refundNumber": "REF-20260901-J81K",
+      "type": "order_refund",
+      "orderId": 10,
+      "orderNumber": "ORD-MQDUWC74-RUVY",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": null,
+      "amount": 94398,
+      "method": "original_payment",
+      "reason": "dasbzkufhsfkjnds",
+      "reference": "mdbcmndzdc kjdcb",
+      "status": "pending",
+      "couponRestored": false,
+      "initiatedAt": "2026-09-01T10:45:21.506Z",
+      "settledAt": null,
+      "by": "Admin User",
+      "createdAt": "2026-09-01T10:45:21.506Z",
+      "updatedAt": "2026-09-01T10:45:21.506Z",
+      "id": 4
+    },
+    {
+      "refundNumber": "REF-20260901-5ZUT",
+      "type": "payment_refund",
+      "orderId": 9,
+      "orderNumber": "ORD-MQCGV6OM-Z965",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": 7,
+      "amount": 75699,
+      "method": "original_payment",
+      "reason": "Refund",
+      "reference": null,
+      "status": "completed",
+      "couponRestored": false,
+      "initiatedAt": "2026-09-01T10:50:15.505Z",
+      "settledAt": "2026-09-01T10:50:15.505Z",
+      "by": "Admin User",
+      "createdAt": "2026-09-01T10:50:15.505Z",
+      "updatedAt": "2026-09-01T10:50:15.505Z",
+      "id": 5
+    },
+    {
+      "refundNumber": "REF-20260901-OK9U",
+      "type": "recall_refund",
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": null,
+      "amount": 9619,
+      "method": "original_payment",
+      "reason": "mmm",
+      "reference": null,
+      "status": "failed",
+      "couponRestored": false,
+      "initiatedAt": "2026-09-01T14:02:12.245Z",
+      "settledAt": null,
+      "by": "Admin User",
+      "createdAt": "2026-09-01T14:02:12.245Z",
+      "updatedAt": "2026-09-01T14:02:22.335Z",
+      "id": 6
+    },
+    {
+      "refundNumber": "REF-20260901-J80N",
+      "type": "order_refund",
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "returnId": null,
+      "returnNumber": null,
+      "paymentId": null,
+      "amount": 9619,
+      "method": "original_payment",
+      "reason": "hghmbnmb",
+      "reference": null,
+      "status": "pending",
+      "couponRestored": false,
+      "initiatedAt": "2026-09-01T14:03:01.489Z",
+      "settledAt": null,
+      "by": "Admin User",
+      "createdAt": "2026-09-01T14:03:01.489Z",
+      "updatedAt": "2026-09-01T14:03:01.489Z",
+      "id": 7
+    }
+  ],
+  "shipping_methods": [
+    {
+      "id": 1,
+      "name": "Standard Delivery",
+      "carrier": "Shiprocket",
+      "description": "Delivered in 5–7 business days in insured silk packaging",
+      "rateType": "flat",
+      "flatRate": 99,
+      "freeAbove": 999,
+      "estimatedDays": "5-7",
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Express Delivery",
+      "carrier": "Shiprocket",
+      "description": "Priority dispatch, delivered in 2–3 business days",
+      "rateType": "flat",
+      "flatRate": 199,
+      "freeAbove": 4999,
+      "estimatedDays": "2-3",
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Same Day Delivery",
+      "carrier": "Dunzo",
+      "description": "Delivered today within select Kolkata pin codes",
+      "rateType": "flat",
+      "flatRate": 499,
+      "freeAbove": null,
+      "estimatedDays": "0",
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Free Shipping",
+      "carrier": "Shiprocket",
+      "description": "Complimentary standard shipping on qualifying orders",
+      "rateType": "free",
+      "flatRate": 0,
+      "freeAbove": 0,
+      "estimatedDays": "5-7",
+      "isActive": false,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "name": "mmmm",
+      "carrier": "not zure",
+      "description": "xx[]]xmbxbxb",
+      "rateType": "flat",
+      "flatRate": 22,
+      "freeAbove": 555555,
+      "estimatedDays": "5-7",
+      "isActive": true,
+      "id": 5
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "MUGA500",
+      "description": "₹500 off your Muga or Pat silk order above ₹5,000",
+      "type": "fixed",
+      "value": 500,
+      "minOrderAmount": 5000,
+      "maxDiscount": 500,
+      "usageLimit": 1000,
+      "usedCount": 0,
+      "perUserLimit": 1,
+      "isActive": true,
+      "expiresAt": "2027-03-31T23:59:59.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "code": "FIRSTLOOM",
+      "description": "10% off your first order above ₹3,000 — capped at ₹2,500",
+      "type": "percentage",
+      "value": 10,
+      "minOrderAmount": 3000,
+      "maxDiscount": 2500,
+      "usageLimit": null,
+      "usedCount": 0,
+      "perUserLimit": 1,
+      "isActive": true,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "code": "BRIDAL10",
+      "description": "10% off bridal Muga sets above ₹25,000 — capped at ₹5,000",
+      "type": "percentage",
+      "value": 10,
+      "minOrderAmount": 25000,
+      "maxDiscount": 5000,
+      "usageLimit": 500,
+      "usedCount": 0,
+      "perUserLimit": 1,
+      "isActive": true,
+      "expiresAt": "2027-06-30T23:59:59.000Z",
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "code": "SUALKUCHI1000",
+      "description": "₹1,000 off handloom orders above ₹10,000",
+      "type": "fixed",
+      "value": 1000,
+      "minOrderAmount": 10000,
+      "maxDiscount": 1000,
+      "usageLimit": null,
+      "usedCount": 0,
+      "perUserLimit": 1,
+      "isActive": true,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "code": "FREESHIP",
+      "description": "Free standard shipping on orders above ₹999",
+      "type": "fixed",
+      "value": 99,
+      "minOrderAmount": 999,
+      "maxDiscount": 99,
+      "usageLimit": null,
+      "usedCount": 0,
+      "perUserLimit": null,
+      "isActive": true,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "code": "BIHU15",
+      "description": "15% off during Bihu on orders above ₹4,000 — capped at ₹3,000",
+      "type": "percentage",
+      "value": 15,
+      "minOrderAmount": 4000,
+      "maxDiscount": 3000,
+      "usageLimit": 300,
+      "usedCount": 0,
+      "perUserLimit": 1,
+      "isActive": true,
+      "expiresAt": "2026-12-31T23:59:59.000Z",
+      "createdAt": "2026-03-01T00:00:00.000Z",
+      "updatedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "code": "NNNN",
+      "description": "none",
+      "type": "percentage",
+      "value": 1000,
+      "minOrderAmount": 400,
+      "maxDiscount": null,
+      "usageLimit": null,
+      "perUserLimit": null,
+      "isActive": true,
+      "expiresAt": null,
+      "usedCount": 0,
+      "createdAt": "2026-09-01T10:53:52.642Z",
+      "updatedAt": "2026-09-01T10:53:52.642Z",
+      "id": 7
+    }
+  ],
+  "reviews": [
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 2,
+      "userName": "Priya M.",
+      "rating": 4,
+      "title": "Beautiful drape, stiff for the first two wears",
+      "body": "Lovely weave and the kesa border is neatly finished. Muga is stiffer off the loom than I expected and it took two wears before the chador pleated properly at the shoulder. Worth knowing before a function rather than after. Four stars only for that; the silk itself is excellent.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 11,
+      "createdAt": "2026-03-04T12:30:00.000Z",
+      "updatedAt": "2026-03-04T12:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "productId": 13,
+      "userId": 2,
+      "userName": "Priya M.",
+      "rating": 5,
+      "title": "Bought it as a saree rather than a drape",
+      "body": "I am not from Assam and do not wear a mekhela, so a Muga saree was exactly what I wanted. Six and a quarter yards, blouse piece included, and the border is woven rather than stitched on. It has the weight of a real silk saree without being unwearable for a full evening.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 33,
+      "photos": [
+        "https://placehold.co/300x300/F2ECE1/8A6118?text=Anchal",
+        "https://placehold.co/300x300/F2ECE1/8A6118?text=Border"
+      ],
+      "createdAt": "2026-02-22T15:10:00.000Z",
+      "updatedAt": "2026-02-22T15:10:00.000Z"
+    },
+    {
+      "id": 5,
+      "productId": 19,
+      "userId": 3,
+      "userName": "Ritu K.",
+      "rating": 5,
+      "title": "Warmer than it looks",
+      "body": "Handspun Eri is genuinely warm in a way I did not expect from silk — closer to a light wool. Undyed ivory goes with everything and the fringe is hand knotted, not machine finished. Washed it once by hand and it came out softer. This has replaced my winter scarf entirely.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 27,
+      "photos": [
+        "https://placehold.co/300x300/FAF6EC/5C554A?text=Eri+Shawl"
+      ],
+      "createdAt": "2026-04-05T11:20:00.000Z",
+      "updatedAt": "2026-04-05T11:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "userId": 3,
+      "userName": "Ritu K.",
+      "rating": 4,
+      "title": "Classic ivory and gold, wore it for Bihu",
+      "body": "Exactly the drape you see on stage at Bihu — ivory Pat, gold zari border, nothing extra. It holds a crisp pleat which is what I wanted. Slightly less generous at the chador than my old one, so if you drape with deep pleats do check the measurements first.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 14,
+      "createdAt": "2026-04-12T14:45:00.000Z",
+      "updatedAt": "2026-04-12T14:45:00.000Z"
+    },
+    {
+      "id": 7,
+      "productId": 28,
+      "userId": 1,
+      "userName": "Sneha R.",
+      "rating": 5,
+      "title": "Ordered six pairs for Bohag Bihu",
+      "body": "Straightforward handwoven gamosas with the proper red border and woven buta at both ends. The listing is honest that they are cotton, which is what a gamosa should be. Packed as pairs in a kraft sleeve so I could give them without rewrapping. Washed one to check and it softened nicely.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 9,
+      "photos": [
+        "https://placehold.co/300x300/F2ECE1/C8912A?text=Gamosa"
+      ],
+      "createdAt": "2026-05-14T16:00:00.000Z",
+      "updatedAt": "2026-05-14T16:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "productId": 10,
+      "userId": 3,
+      "userName": "Ritu K.",
+      "rating": 3,
+      "title": "Lovely fibre, but the undyed shade was lighter than the photos",
+      "body": "No complaint about the Eri itself — it is soft, matte and exactly as described in the hand. But the natural oatmeal arrived noticeably paler than the listing images, closer to cream. Support explained that undyed Eri varies by batch, which I accept, though I would have liked that flagged more clearly on the page.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 16,
+      "createdAt": "2026-05-02T09:30:00.000Z",
+      "updatedAt": "2026-05-02T09:30:00.000Z"
+    },
+    {
+      "id": 11,
+      "productId": 13,
+      "userId": 3,
+      "userName": "Ritu K.",
+      "rating": 5,
+      "title": "Second Muga from Meghali’s, consistent quality",
+      "body": "Bought a Mekhela Chador last year and this saree in June. Same depth of gold, same finish on the border, so whatever they are doing at the Sualkuchi end is consistent between orders. Posting early before the wedding photographs are back.",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 0,
+      "createdAt": "2026-06-24T10:30:00.000Z",
+      "updatedAt": "2026-09-01T13:55:45.447Z"
+    },
+    {
+      "productId": 13,
+      "userId": null,
+      "userName": "shubendu",
+      "rating": 4,
+      "title": "none",
+      "body": "none",
+      "status": "approved",
+      "isVerifiedPurchase": true,
+      "helpfulCount": 0,
+      "source": "admin",
+      "createdAt": "2026-09-01T17:15:12.518Z",
+      "updatedAt": "2026-09-01T17:15:16.770Z",
+      "id": 12
+    }
+  ],
+  "wishlist": [
+    {
+      "productId": 1,
+      "slug": "sualkuchi-muga-mekhela-chador-natural-gold",
+      "name": "Sualkuchi Muga Mekhela Chador — Natural Gold",
+      "image": "https://placehold.co/600x800/F2ECE1/8A6118?text=Muga+Mekhela",
+      "brand": "Meghali's Silk",
+      "price": 32500,
+      "comparePrice": 38000,
+      "rating": 4.8,
+      "totalReviews": 41,
+      "shortDescription": "A two-piece Muga Mekhela Chador in undyed golden yarn, handwoven on Sualkuchi looms.",
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Natural Gold",
+          "price": 32500,
+          "stock": 5,
+          "sku": "MEK-MUG-001-NGD",
+          "attributes": {
+            "Fabric": "Muga Silk",
+            "Color": "Natural Gold"
+          },
+          "swatchHex": "#C6A050"
+        },
+        {
+          "id": "v2",
+          "name": "Gold with Rust Border",
+          "price": 33500,
+          "stock": 4,
+          "sku": "MEK-MUG-001-GRB",
+          "attributes": {
+            "Fabric": "Muga Silk",
+            "Color": "Gold Rust"
+          },
+          "swatchHex": "#A9682F"
+        }
+      ],
+      "stock": 9,
+      "trending": true,
+      "hot": false,
+      "addedAt": "2026-06-14T13:57:44.901Z",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "productId": 13,
+      "slug": "muga-silk-saree-assam-golden",
+      "name": "Muga Silk Saree — Assam Golden",
+      "image": "https://placehold.co/600x800/F2ECE1/8A6118?text=Muga+Saree",
+      "brand": "Meghali's Silk",
+      "price": 27500,
+      "comparePrice": 32000,
+      "rating": 4.8,
+      "totalReviews": 52,
+      "shortDescription": "Six yards of undyed Muga with a woven border — the drape, in saree form.",
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Natural Gold",
+          "price": 27500,
+          "stock": 6,
+          "sku": "SAR-MUG-013-NGD",
+          "attributes": {
+            "Fabric": "Muga Silk",
+            "Color": "Natural Gold"
+          },
+          "swatchHex": "#C6A050"
+        },
+        {
+          "id": "v2",
+          "name": "Gold with Black Border",
+          "price": 27500,
+          "stock": 4,
+          "sku": "SAR-MUG-013-BLK",
+          "attributes": {
+            "Fabric": "Muga Silk",
+            "Color": "Gold Black"
+          },
+          "swatchHex": "#2B2724"
+        }
+      ],
+      "stock": 10,
+      "trending": true,
+      "hot": false,
+      "addedAt": "2026-06-14T13:57:57.354Z",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "productId": 19,
+      "slug": "eri-silk-shawl-undyed-ivory",
+      "name": "Eri Silk Shawl — Undyed Ivory",
+      "image": "https://placehold.co/600x800/FAF6EC/5C554A?text=Eri+Shawl",
+      "brand": "Meghali's Silk",
+      "price": 4800,
+      "comparePrice": null,
+      "rating": 4.7,
+      "totalReviews": 58,
+      "shortDescription": "A handspun Eri shawl in undyed ivory, warm enough for a Guwahati winter evening.",
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Undyed Ivory",
+          "price": 4800,
+          "stock": 16,
+          "sku": "STO-ERI-019-IVY",
+          "attributes": {
+            "Fabric": "Eri Silk",
+            "Color": "Undyed Ivory"
+          },
+          "swatchHex": "#E4DAC6"
+        },
+        {
+          "id": "v2",
+          "name": "Natural Oatmeal",
+          "price": 4800,
+          "stock": 14,
+          "sku": "STO-ERI-019-NAT",
+          "attributes": {
+            "Fabric": "Eri Silk",
+            "Color": "Natural Oatmeal"
+          },
+          "swatchHex": "#D9CDB8"
+        }
+      ],
+      "stock": 30,
+      "trending": true,
+      "hot": false,
+      "addedAt": "2026-06-14T13:57:59.358Z",
+      "userId": 3,
+      "id": 3
+    }
+  ],
+  "leads": [
+    {
+      "id": 1,
+      "type": "contact",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+91 9876543210",
+      "orderNumber": "ORD-20250310-0001",
+      "category": "shipping",
+      "subject": "Order delivery update",
+      "message": "Hi, I wanted to check on the delivery status of my order. The tracking shows it's been shipped but I haven't received an estimated delivery date.",
+      "status": "resolved",
+      "createdAt": "2026-01-16T11:00:00.000Z",
+      "updatedAt": "2026-01-16T14:30:00.000Z",
+      "notes": "Provided tracking details to customer"
+    },
+    {
+      "id": 2,
+      "type": "newsletter",
+      "name": null,
+      "email": "subscriber@example.com",
+      "phone": null,
+      "orderNumber": null,
+      "category": null,
+      "subject": null,
+      "message": null,
+      "status": "subscribed",
+      "createdAt": "2026-02-10T09:00:00.000Z",
+      "updatedAt": "2026-02-10T09:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "type": "contact",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+91 9123456789",
+      "orderNumber": null,
+      "category": "product",
+      "subject": "Product availability inquiry",
+      "message": "Do you have the FitPulse Smartwatch in size 44mm? The website shows it's available but I wanted to confirm before ordering.",
+      "status": "contacted",
+      "createdAt": "2026-03-18T10:30:00.000Z",
+      "updatedAt": "2026-04-17T14:22:33.071Z",
+      "notes": "fdsadfsafwe"
+    },
+    {
+      "type": "contact",
+      "name": "Bappi Das",
+      "email": "mail4bappidas@gmail.com",
+      "phone": "+919707112233",
+      "orderNumber": "ORD-MQC1HWSZ-CAN8",
+      "category": "returns",
+      "subject": "Want to return this AirStride Running Shoes - UK 7 - Black",
+      "message": "AirStride Running Shoes - UK 7 - Black is does not fit properly",
+      "status": "resolved",
+      "createdAt": "2026-06-13T12:52:25.021Z",
+      "updatedAt": "2026-06-13T15:55:02.925Z",
+      "notes": "Need to Cancel this order. ",
+      "id": 4
+    },
+    {
+      "type": "newsletter",
+      "name": null,
+      "email": "shubendu@assamdigital.com",
+      "phone": null,
+      "orderNumber": null,
+      "category": null,
+      "subject": null,
+      "message": null,
+      "status": "subscribed",
+      "createdAt": "2026-09-01T11:05:17.021Z",
+      "updatedAt": "2026-09-01T11:05:17.021Z",
+      "notes": "",
+      "id": 5
+    },
+    {
+      "type": "contact",
+      "name": "dvvdv",
+      "email": "shubendu@assamdigitaxcvbbl.com",
+      "phone": "",
+      "orderNumber": "",
+      "category": "general",
+      "subject": "cvvv",
+      "message": "cxvxcvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+      "status": "new",
+      "createdAt": "2026-09-01T11:11:24.536Z",
+      "updatedAt": "2026-09-01T11:11:24.536Z",
+      "notes": "",
+      "id": 6
+    }
+  ],
+  "settings": {
+    "store": {
+      "name": "Meghali's Silk",
+      "tagline": "Handwoven Assamese silk from the looms of Sualkuchi",
+      "email": "care@meghalisilk.com",
+      "phone": "+91 33 4000 1100",
+      "address": "Galleria Producer Company Limited, Park Street, Kolkata, West Bengal 700016",
+      "currency": "INR",
+      "currencySymbol": "₹",
+      "timezone": "Asia/Kolkata",
+      "logo": null,
+      "favicon": null,
+      "taxRate": 5,
+      "taxIncluded": false
+    },
+    "shipping": {
+      "shiprocketEnabled": false,
+      "shiprocketEmail": "",
+      "shiprocketPassword": "",
+      "defaultWeight": 0.5,
+      "defaultDimensions": {
+        "length": 15,
+        "width": 12,
+        "height": 8
+      }
+    },
+    "payment": {
+      "razorpayEnabled": false,
+      "razorpayKeyId": "",
+      "stripeEnabled": false,
+      "stripePublishableKey": "",
+      "codEnabled": true,
+      "codFee": 0,
+      "codMinOrder": 0,
+      "codMaxOrder": 50000
+    },
+    "notifications": {
+      "orderConfirmationEmail": true,
+      "shippingUpdateEmail": true,
+      "adminNewOrderEmail": true,
+      "adminEmail": "admin@mystore.com",
+      "lowStockAlert": true,
+      "lowStockEmail": "admin@mystore.com"
+    },
+    "seo": {
+      "metaTitle": "Meghali's Silk — Assamese Muga, Pat & Eri Silk Mekhela Chador and Sarees",
+      "metaDescription": "Handwoven Assamese silk from Sualkuchi — Muga, Pat and Eri Mekhela Chador, sarees, shawls, blouses and gifts. Naturally golden Muga, soft matte Eri, woven to last generations.",
+      "googleAnalyticsId": "",
+      "facebookPixelId": ""
+    },
+    "social": {
+      "facebook": "https://facebook.com/meghalisilk",
+      "instagram": "https://instagram.com/meghalisilk",
+      "twitter": "https://twitter.com/meghalisilk",
+      "youtube": "https://youtube.com/@meghalisilk",
+      "whatsapp": "https://wa.me/913340001100"
+    }
+  },
+  "walletTransactions": [
+    {
+      "id": 1,
+      "userId": 3,
+      "type": "credit",
+      "amount": 4918,
+      "reason": "Refund for order ORD-MQC1HWSZ-CAN8",
+      "orderId": 8,
+      "orderNumber": "ORD-MQC1HWSZ-CAN8",
+      "refundId": 3,
+      "refundNumber": "REF-20260613-JQ3L",
+      "balanceBefore": 0,
+      "balanceAfter": 4918,
+      "createdAt": "2026-06-13T12:57:28.419Z"
+    },
+    {
+      "userId": 3,
+      "type": "debit",
+      "amount": 1000,
+      "reason": "Applied to order ORD-MQCGV6OM-Z965",
+      "orderId": 9,
+      "orderNumber": "ORD-MQCGV6OM-Z965",
+      "refundId": null,
+      "refundNumber": null,
+      "balanceBefore": 4918,
+      "balanceAfter": 3918,
+      "createdAt": "2026-06-13T14:44:33.927Z",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "type": "debit",
+      "amount": 1000,
+      "reason": "Applied to order ORD-MQDVIQCV-30A9",
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "refundId": null,
+      "refundNumber": null,
+      "balanceBefore": 3918,
+      "balanceAfter": 2918,
+      "createdAt": "2026-06-14T14:22:33.343Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "type": "credit",
+      "amount": 1000,
+      "reason": "Store credit returned — ORD-MQDVIQCV-30A9 cancelled",
+      "orderId": 11,
+      "orderNumber": "ORD-MQDVIQCV-30A9",
+      "refundId": null,
+      "refundNumber": null,
+      "balanceBefore": 2918,
+      "balanceAfter": 3918,
+      "createdAt": "2026-09-01T14:02:12.035Z",
+      "id": 4
+    }
+  ],
+  "dealsConfig": {
+    "enabled": true,
+    "hero": {
+      "tag": "Bihu Offers",
+      "title": "Honest Markdowns on Handwoven Assamese Silk",
+      "subtitle": "A short list of Muga, Pat and Eri pieces genuinely reduced from their original price. Everything else in the catalogue stays where it is."
+    },
+    "timer": {
+      "enabled": true,
+      "endAt": "2026-09-01T11:04:00.000Z",
+      "onExpiry": "endOfDay"
+    },
+    "featuredCouponIds": [
+      2,
+      3,
+      7
+    ],
+    "dealOfTheDayIds": [
+      1,
+      13,
+      34
+    ],
+    "featuredProductIds": [
+      1,
+      6,
+      13,
+      16,
+      34,
+      35,
+      36
+    ],
+    "updatedAt": "2026-09-01T00:00:00.000Z"
+  }
+}
